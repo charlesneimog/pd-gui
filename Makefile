@@ -6,7 +6,7 @@
 ### sudo apt install libgtk-4-dev libadwaita-1-dev
 
 # FOR MACOS
-### brew install gtk4 adwaita
+### brew install libadwaita
 
 uname := $(shell uname -s)
 
