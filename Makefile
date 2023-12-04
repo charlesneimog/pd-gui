@@ -1,6 +1,3 @@
-#CC = /usr/bin/gcc
-
-
 # FOR WINDOWS 11
 ### pacman -S mingw-w64-x86_64-gtk4 mingw-w64-x86_64-libadwaita-1
 ### I am supposing that you have make, gcc and pkg-config installed
@@ -30,7 +27,7 @@ else
 endif
 
 SRC = main.c
-OBJ = app
+OBJ = pdgtk
 
 all: $(OBJ)
 
