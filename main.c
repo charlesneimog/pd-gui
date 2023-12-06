@@ -97,9 +97,8 @@ static void close_window(void) {
 }
 
 static const GActionEntry app_actions[] = {
-    {"newobj", draw_Obj, NULL, NULL, NULL};
-}
-;
+    // {"newobj", draw_Obj, NULL, NULL, NULL};
+};
 
 static void Pd_GUI(GtkApplication *app, gpointer user_data) {
   GtkWidget *window;
